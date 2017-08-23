@@ -2,7 +2,6 @@ package com.example.bill.todaynews_kotlin.utils
 
 import android.app.Activity
 import android.content.Context
-import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy

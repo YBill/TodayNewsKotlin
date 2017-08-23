@@ -8,4 +8,8 @@
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#1a000000</color>
     <color name="transparent">#00000000</color>
+
+    <color name="divider">#ffe8e8e8</color>
+    <color name="tab_bg">#F4F5F6</color>
+    <color name="tab_text">#F85959</color>
 </resources>

@@ -68,7 +68,7 @@ class SplashActivity : BaseMVPActivity<SplashView, BaseSplashPresenter>(), Splas
     }
 
     private fun startActivity() {
-        launchActivity<MainActivity>()
+        launchActivity<HomeActivity>()
         finish()
     }
 
