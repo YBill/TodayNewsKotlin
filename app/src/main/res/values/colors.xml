@@ -10,6 +10,8 @@
     <color name="transparent">#00000000</color>
 
     <color name="divider">#ffe8e8e8</color>
-    <color name="tab_bg">#F4F5F6</color>
-    <color name="tab_text">#F85959</color>
+    <color name="home_tab_bg">#F4F5F6</color>
+    <color name="home_tab_bg_press">#DCDCDC</color>
+    <color name="home_tab_text_press">#F85959</color>
+    <color name="home_tab_text">#363636</color>
 </resources>

@@ -5,7 +5,7 @@ package com.example.bill.mvp_kotlin.base
  */
 abstract class BasePresenter<V> {
 
-    protected var mView: V? = null
+    var mView: V? = null
 
     fun attach(mView: V) {
         this.mView = mView

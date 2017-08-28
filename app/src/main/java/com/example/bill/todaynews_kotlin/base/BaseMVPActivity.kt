@@ -8,7 +8,7 @@ import com.example.bill.todaynews_kotlin.base.BaseActivity
  */
 abstract class BaseMVPActivity<V, T : BasePresenter<V>> : BaseActivity() {
 
-    protected lateinit var presenter: T
+    lateinit var presenter: T
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

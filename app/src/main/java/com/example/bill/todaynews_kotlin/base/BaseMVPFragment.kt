@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity
  */
 abstract class BaseMVPFragment<V, T : BasePresenter<V>> : Fragment() {
 
-    protected lateinit var presenter: T
+    lateinit var presenter: T
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
