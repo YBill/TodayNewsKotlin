@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TodayNews-Kotlin</string>
+    <string name="feed_search_tip">搜你想搜的</string>
 </resources>

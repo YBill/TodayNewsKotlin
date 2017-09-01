@@ -3,11 +3,12 @@ package com.example.bill.mvp_kotlin.base
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
+import com.example.bill.todaynews_kotlin.base.BaseFragment
 
 /**
  * Created by Bill on 2017/8/14.
  */
-abstract class BaseMVPFragment<V, T : BasePresenter<V>> : Fragment() {
+abstract class BaseMVPFragment<V, T : BasePresenter<V>> : BaseFragment() {
 
     lateinit var presenter: T
 

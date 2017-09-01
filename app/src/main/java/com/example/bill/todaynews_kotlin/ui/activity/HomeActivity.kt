@@ -41,8 +41,8 @@ class HomeActivity : BaseActivity() {
                 val rl = v as RelativeLayout
                 val icon = rl.getChildAt(0) as ImageView
                 val text = rl.getChildAt(1) as TextView
-                mController.showFragment(i)
                 setSelectIcon(icon, text)
+                mController.showFragment(i)
             })
         }
     }

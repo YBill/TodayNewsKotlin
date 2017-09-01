@@ -4,7 +4,10 @@ package com.example.bill.todaynews_kotlin.control
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
 import android.support.v4.app.FragmentManager
+import com.example.bill.todaynews_kotlin.fragment.AttentionFragment
 import com.example.bill.todaynews_kotlin.fragment.HomeFragment
+import com.example.bill.todaynews_kotlin.fragment.MineFragment
+import com.example.bill.todaynews_kotlin.fragment.VideoFragment
 import java.util.*
 
 
@@ -23,9 +26,9 @@ class HomeFragmentControl private constructor(activity: FragmentActivity, privat
     private fun initFragment() {
         fragments = ArrayList()
         fragments.add(HomeFragment())
-        fragments.add(HomeFragment())
-        fragments.add(HomeFragment())
-        fragments.add(HomeFragment())
+        fragments.add(VideoFragment())
+        fragments.add(AttentionFragment())
+        fragments.add(MineFragment())
 
         val ft = fm.beginTransaction()
         for (i in fragments.indices) {
